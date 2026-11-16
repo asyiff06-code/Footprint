@@ -13,39 +13,7 @@
 
 For this lab I only scanned my own vulnerable machine, Bluemoon from VulnHub. Both my attacker and the target run inside VirtualBox on the same private Host-Only network, so no public systems were ever touched. I kept everything to active reconnaissance, which means host discovery together with port and service scanning. I did not do any exploitation, brute forcing, persistence or destructive testing.
 
----
 
-## 1. Target Setup (Victim) and Attacker
-
-Both machines use the VirtualBox Host-Only Adapter, which keeps all of their traffic on one private, isolated segment (`192.168.56.0/24`).
-
-| Role | VM | Adapter | MAC | IP |
-|------|-----|---------|-----|-----|
-| Attacker | Kali Linux | Host-Only | `# Lab 4: Active Reconnaissance (Footprinting)
-
-
-
-## Scope
-
-For this lab I only scanned my own vulnerable machine, Bluemoon from VulnHub. Both my attacker and the target run inside VirtualBox on the same private Host-Only network, so no public systems were ever touched. I kept everything to active reconnaissance, which means host discovery together with port and service scanning. I did not do any exploitation, brute forcing, persistence or destructive testing.
-
----
-
-## 1. Target Setup (Victim) and Attacker
-
-Both machines use the VirtualBox Host-Only Adapter, which keeps all of their traffic on one private, isolated segment (`192.168.56.0/24`).
-
-| Role | VM | Adapter | MAC | IP |
-|------|-----|---------|-----|-----|
-| Attacker | Kali Linux | Host-Only | `# Lab 4: Active Reconnaissance (Footprinting)
-
----
-
-## Scope
-
-For this lab I only scanned my own vulnerable machine, Bluemoon from VulnHub. Both my attacker and the target run inside VirtualBox on the same private Host-Only network, so no public systems were ever touched. I kept everything to active reconnaissance, which means host discovery together with port and service scanning. I did not do any exploitation, brute forcing, persistence or destructive testing.
-
----
 
 ## 1. Target Setup (Victim) and Attacker
 
